@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Search iTunes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    
+</head>
+
+<body>
+    <section> <!-- section header -->
+        <header>
+            <div class="container-fluid bg-primary">
+                <div class="container ">
+                    <nav class="navbar sticky-top">
+                        <h1 class="h1 text-white ">Search iTunes API</h1>
+                    </nav>
+                </div>
+        </header>
+    </section> <!-- end section header -->
+
+    
+    <section> <!-- section search input group -->  
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-3 margins-20">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for..." id="search-input">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button" id="search">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- end section search input group -->
+    
+
+    <section> <!-- end section content -->
+        <div class="container-fluid">
+            <div class="container">
+                <div class="panel-group" id="acordion">
+                </div>
+            </div>
+        </div>
+    </section> <!-- end section content -->
+
+    <script src="libs/jquery/jquery-1.12.4.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

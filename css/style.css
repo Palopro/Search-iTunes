@@ -1,0 +1,48 @@
+@font-face{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/RobotoRegular/RobotoRegular.woff")
+}
+
+
+body {
+    background-color: rgb(233, 233, 233);
+    font-family: "Roboto";
+    margin: 20px;
+}
+
+.margins-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.margins-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.col-xs-2 {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+img {
+    border: 2px solid blue;
+}
+
+.panel {
+    border: 0;
+}
+
+.panel-group .panel-default {
+    background: transparent;
+}
+
+.panel-group .panel-default>.panel-heading {
+    background: transparent;
+}
+
+button {
+    background: transparent;
+}
